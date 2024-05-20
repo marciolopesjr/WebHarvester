@@ -1,7 +1,3 @@
-
-### Script `web_harvester.py`
-
-```python
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -48,4 +44,3 @@ page_url = 'https://exemplo.com/pagina-com-links'
 download_folder = 'arquivos_baixados'
 
 download_all_files_from_page(page_url, download_folder)
-``
