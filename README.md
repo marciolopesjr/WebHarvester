@@ -26,7 +26,15 @@ WebHarvester é um script Python que facilita a coleta de arquivos de páginas d
    pip install requests beautifulsoup4
 3. Edite o script web_harvester.py para especificar a URL da página da qual deseja baixar os arquivos e o diretório de destino:
    ```bash
-   # URL da página da qual deseja baixar os arquivos
-  page_url = 'https://exemplo.com/pagina-com-links'
-  # Diretório de destino para salvar os arquivos
-  download_folder = 'arquivos_baixados'
+      # URL da página da qual deseja baixar os arquivos
+     page_url = 'https://exemplo.com/pagina-com-links'
+     # Diretório de destino para salvar os arquivos
+     download_folder = 'arquivos_baixados'
+4. Execute o script:
+   ```bash
+   python web_harvester.py
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Feito com ♥ e Python por Márcio Lopes.
